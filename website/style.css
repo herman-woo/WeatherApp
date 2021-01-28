@@ -1,0 +1,178 @@
+body{
+    background: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #000000;
+    color: #ffffff;
+    justify-content: space-around;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+    border: 3px solid white;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    background-image: url(./images/IMG_0012.JPG);
+    top: 0;
+    
+}
+.font.headline{
+    padding: 25px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 100%;
+}
+.sidebar{
+width: 400px;
+right: 0;
+}
+
+
+.entry.holder{
+    width: 90%;
+}
+
+#entryHolder{
+    border: 3px solid black;
+    overflow-y: scroll;
+    height: 93%;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+}
+#entryHolder::-webkit-scrollbar {
+    display: none;
+  }
+.entry.title{
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.entryContent{
+    background: rgba(255, 255, 255, 0.096);
+    font-size: 33px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.entryContent:hover{
+    background: rgba(255, 255, 255, 0.541);
+}
+.entryContentInfo{
+    width: 200px;
+}
+#city{
+    font-size: 34px;
+}
+#temp{
+    font-size: 27px;
+}
+#date{
+    font-size: 18px;
+}
+
+#content{
+    font-size: 21px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.feel{
+    display: flex;
+    flex-direction: column;
+
+}
+#generate{
+
+}
+.box{
+border: 3px solid white;
+}
+button{
+
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    height: 170px;
+
+}
+button:hover{
+    background: #6d81ac;
+    color: #1f1b07;
+    border: 3px solid black;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    background:#1f428d;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+textarea{
+    background:#1f428d;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+} 
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+} 
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #f0d43a; 
+    font-family: 'Oswald', sans-serif;
+
+} 
