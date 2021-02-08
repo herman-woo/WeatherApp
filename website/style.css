@@ -80,6 +80,8 @@ right: 0;
 }
 .entryContent:hover{
     background: rgba(255, 255, 255, 0.541);
+    background-image: url(https://scontent.fybz2-2.fna.fbcdn.net/v/t1.0-9/116709258_10224045862032841_8688036000994471072_o.jpg?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=4OnhNRMZ8yYAX-8uVno&_nc_ht=scontent.fybz2-2.fna&oh=2d3bdbaf70d8f1e5979ebf26ccd3b270&oe=603C3A90);
+    background-size: contain;
 }
 .entryContentInfo{
     width: 200px;

@@ -87,6 +87,7 @@ const updateUI = async () => {
         date.textContent = data.date;
         cityInfo.appendChild(date);         
       //ADD CITY NAME
+      //AAAAAAAAAAAAAAAAAAAAAARONNNNNNN
         const name = document.createElement('div');
         name.setAttribute("id", "city");
         name.textContent = data.city;
